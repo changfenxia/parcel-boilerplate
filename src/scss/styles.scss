@@ -1,0 +1,45 @@
+.img-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  flex: 1 1 1 1 1;
+
+  height: calc(80vh);
+
+  .img {
+    transition-duration: 700ms;
+    transition-timing-function: ease-in;
+    width: calc(8vw);
+    height: calc(90vh);
+    border-radius: calc(5wv);
+  }
+
+  .img:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .expand {
+    width: calc(40vw);
+  }
+}
+
+.img:nth-child(1) {
+  background-image: url("../img/29488338-erawan-waterfall-in-thailand-beautiful-nature-background.jpg");
+}
+
+.img:nth-child(2) {
+  background-image: url("../img/beautiful-photos-of-italy.jpg");
+}
+
+.img:nth-child(3) {
+  background-image: url("../img/beautiful-places-weather-tree-rood-153103031.jpg");
+}
+
+.img:nth-child(4) {
+  background-image: url("../img/c9fa710ce5c2986b14c952c9af7df830.jpg");
+}
+
+.img:nth-child(5) {
+  background-image: url("../img/Custom-3D-Photo-Wallpaper-HD-Green-Landscape-Waterfall-Beautiful-TV-Background-Mural-Bedroom-Living-Room-Non.jpg_Q90.jpg_.webp");
+}
